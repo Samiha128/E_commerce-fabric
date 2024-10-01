@@ -83,7 +83,7 @@ The Power BI dashboards provide visual insights into:
 - Sales trends over time.
 - Inventory levels and stock management.
 
-![Project Architecture](images/architecture-projet.png)
+![Project Architecture](images/dashboard.png)
 
 
 ## 📞 Contact
