@@ -29,28 +29,23 @@ To set up and run this project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/ecommerce-analysis.git
+    git clone https://github.com/Samiha128/E_commerce-fabric/tree/main.git
     ```
 2. Navigate to the project directory:
     ```bash
     cd ecommerce-analysis
     ```
 
-3. Install any required dependencies (if applicable):
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. Set up your Fabric Data Factory and configure the data ingestion pipeline.
 
-4. Set up your Azure Data Factory and configure the data ingestion pipeline.
-
-5. Configure your OneLake connection for data storage.
+4. Configure your OneLake connection for data storage.
 
 ## 🚀 Usage
 This project includes SQL scripts and Power BI files for analyzing and visualizing ecommerce data.
 
 ### Steps to use the project:
 
-1. **Ingest Data**: Run the data ingestion pipeline in Azure Data Factory to load ecommerce data into OneLake.
+1. **Ingest Data**: Run the data ingestion pipeline in FABRIC Data Factory to load ecommerce data into OneLake.
 2. **Analyze Data**: Use SQL queries to analyze the ingested data in OneLake.
 3. **Visualize Data**: Open the Power BI file to visualize the results of your analysis and generate reports.
 
@@ -66,7 +61,7 @@ This project includes SQL scripts and Power BI files for analyzing and visualizi
 - Enhance Power BI reports with more detailed visualizations and insights.
 
 ## 🛠 Tools
-- **Azure Data Factory**: For data ingestion and ETL processes.
+- **FABRIC Data Factory**: For data ingestion and ETL processes.
 - **OneLake**: As the data lakehouse for storing ecommerce data.
 - **SQL**: For data analysis and querying.
 - **Power BI**: For data visualization and reporting.
@@ -75,12 +70,12 @@ This project includes SQL scripts and Power BI files for analyzing and visualizi
 ## 🏗 Architecture
 The architecture of the project consists of:
 1. **Ecommerce Data Sources**: Data is collected from various ecommerce platforms.
-2. **Data Ingestion**: Managed by Azure Data Factory to load data into OneLake.
+2. **Data Ingestion**: Managed by FABRIC Data Factory to load data into OneLake.
 3. **Data Lakehouse**: OneLake serves as the storage solution for ingested data.
 4. **Data Analysis**: SQL queries are executed on the data in OneLake.
 5. **Data Visualization**: Power BI is used to create dashboards for reporting.
 
-![Project Architecture](images/ecommerce_architecture.png)
+![Project Architecture](images/architecture-projet.png)
 
 ## 📊 Dashboard
 The Power BI dashboards provide visual insights into:
@@ -88,7 +83,9 @@ The Power BI dashboards provide visual insights into:
 - Sales trends over time.
 - Inventory levels and stock management.
 
+![Project Architecture](images/architecture-projet.png)
+
+
 ## 📞 Contact
 For any questions or issues, feel free to reach out:
-- Email: your.email@example.com
-- GitHub: [your-username](https://github.com/your-username)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samiha-el-mansouri-27505b250/)
